@@ -1,0 +1,26 @@
+{
+  "name": "web-validate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "validate-html": "index.html",
+    "validate-js": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server ./",
+    "watch": "npm-watch",
+    "validate-html": "html-validate index.html",
+    "validate-js": "jshint main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-validate": "^7.13.2",
+    "http-server": "^14.1.1",
+    "jshint": "^2.13.6",
+    "npm-watch": "^0.11.0"
+  }
+}
